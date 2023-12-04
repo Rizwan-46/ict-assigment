@@ -1,0 +1,42 @@
+@keyframes moveInRight{
+    0%{
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(10px);
+   
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* for button */
+@keyframes moveInDown{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes moveInDown{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
